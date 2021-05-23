@@ -1,0 +1,44 @@
+[
+  {
+    "title": "NYT > Top Stories",
+    "description": "NYT > Top Stories RSS Feeds",
+    "image": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+    "link": "https://www.nytimes.com",
+    "rss": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+  },
+  {
+    "title": "NASA Image of the Day",
+    "description": "The latest NASA &quot;Image of the Day&quot; image.",
+    "image": "",
+    "link": "http://www.nasa.gov",
+    "rss": "href=\"http://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
+  },
+  {
+    "title": "BuzzFeed - Latest",
+    "description": "BuzzFeed has breaking news, vital journalism, quizzes, videos, celeb news, Tasty food videos, recipes, DIY hacks, and all the trending buzz you’ll want to share with your friends. Copyright BuzzFeed, Inc. All rights reserved.",
+    "image": "https://webappstatic.buzzfeed.com/static/images/public/rss/logo.png",
+    "link": "https://www.buzzfeed.com/index",
+    "rss": "https://www.buzzfeed.com"
+  },
+  {
+    "title": "NYT > Technology > Personal Tech",
+    "description": "Personal tech",
+    "image": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+    "link": "https://www.nytimes.com/section/technology/personaltech",
+    "rss": "https://www.hongkiat.com"
+  },
+  {
+    "title": "Technology Review RSS Feeds",
+    "description": "Technology Review exists to promote the understanding of emerging technologies and their impact.",
+    "image": "",
+    "link": "http://www2.technologyreview.com",
+    "rss": "https://www2.technologyreview.com/rss/feeds/mainrss.aspx"
+  },
+  {
+    "title": "CryptoNinjas",
+    "description": "Bitcoin, Cryptocurrency and Blockchain Asset Source",
+    "image": "",
+    "link": "https://www.cryptoninjas.net",
+    "rss": "https://www2.technologyreview.com/rss/feeds/mainrss.aspx"
+  }
+]
