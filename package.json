@@ -4,13 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && npm run move-static",
+    "start": "next start",
+    "move-static": "cp -a ./node_modules/@pdftron/webviewer/public/. ./dist/public/webviewer",
+    "postinstall": "node tools/copy-webviewer-files.js"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^7.3.2",
+    "@prisma/client": "^2.24.0",
+    "bootstrap": "^5.0.1",
     "bootstrap-icons": "^1.5.0",
     "next": "10.2.2",
+    "rc-queue-anim": "^1.8.5",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.7.3",
     "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "prisma": "^2.24.0",
+    "fs-extra": "^7.0.1"
   }
 }

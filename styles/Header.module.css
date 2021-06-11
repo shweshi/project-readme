@@ -4,3 +4,18 @@
     font-weight: bolder;
     padding: 0px 50px 25px 50px;
 }
+
+.plusButton {
+    background-color: #26262e;
+    border-radius: 50%;
+    border: none;
+}
+
+.plusButton:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navIcon {
+    color: white !important;
+}

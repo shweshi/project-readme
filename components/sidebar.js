@@ -8,18 +8,30 @@ function Sidebar() {
             <li className="nav-item">
               <a href="/" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
                  data-bs-placement="right" data-bs-original-title="Home">
-                <i className={`bi-house fs-3 ${styles.navIcon}`}></i>
+                <i className={`bi-house fs-2 ${styles.navIcon}`}></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/feeds" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                 data-bs-placement="right" data-bs-original-title="Feeds">
+                <i className={`bi-rss fs-3 ${styles.navIcon}`}></i>
               </a>
             </li>
             <li>
-              <a href="/#links" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                 data-bs-placement="right" data-bs-original-title="Dashboard">
-                <i className={`bi-link fs-3 ${styles.navIcon}`}></i>
+              <a href="/links" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                 data-bs-placement="right" data-bs-original-title="Links">
+                <i className={`bi-link fs-2 ${styles.navIcon}`}></i>
               </a>
             </li>
             <li>
-              <a href="/#youtube" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                 data-bs-placement="right" data-bs-original-title="Orders">
+              <a href="/pdfs" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                 data-bs-placement="right" data-bs-original-title="Pdfs">
+                <i className={`bi-file-pdf-fill fs-2 ${styles.navIcon}`}></i>
+              </a>
+            </li>
+            <li>
+              <a href="/youtubes" className="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                 data-bs-placement="right" data-bs-original-title="Youtubes">
                 <i className={`bi-youtube fs-3 ${styles.navIcon}`}></i>
               </a>
             </li>

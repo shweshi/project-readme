@@ -1,0 +1,55 @@
+.pdfs {
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+
+.pdfHeader {
+    color: #dddddf;
+    font-size: large;
+    font-weight: bolder;
+    padding: 25px 0px 25px 0px;
+}
+
+.pdfSmallHeader {
+    color: #dddddf;
+    font-size: medium;
+    font-weight: 100;
+    padding: 25px 0px 25px 0px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #26262e !important;
+    margin-bottom: 15px;
+}
+
+.cardTitle {
+    color: #dcdcdd;
+    font-size: medium;
+}
+
+.cardText {
+    color: #828185;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: small;
+}
+
+.cardLink {
+    color: #626268;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: smaller;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    padding: 10px 0px 10px 10px;
+}
